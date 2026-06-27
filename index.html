@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru" class="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIXIZE.DEV — Фронтенд-разработка & Автоматизация</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="custom-cursor-dot"></div>
+    <div class="custom-cursor-outline"></div>
+
+    <div class="glow-ambience">
+        <div class="glow-sphere sphere-indigo"></div>
+        <div class="glow-sphere sphere-cyan"></div>
+    </div>
+
+    <header class="site-header">
+        <div class="nav-container">
+            <a href="#" class="brand-logo">DIXIZE<span>/_</span></a>
+            <nav class="main-navigation">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link-item">Обо мне</a></li>
+                    <li><a href="#services" class="nav-link-item">Преимущества</a></li>
+                    <li><a href="#portfolio" class="nav-link-item">Портфолио</a></li>
+                    <li><a href="#contact" class="nav-link-item">Конфигуратор ТЗ</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="#contact" class="action-btn btn-glass">Рассчитать проект</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+
+        <!-- Главный экран -->
+        <section id="hero" class="hero-section text-center">
+            <div class="hero-wrapper">
+                <div class="status-pill animate-fade-in">
+                    <span class="pulse-indicator"></span> Скрипты автоматизации активны
+                </div>
+                <h1 class="main-headline animate-slide-up">
+                    Проектирую интерфейсы <br>
+                    <span class="gradient-text">с чистой архитектурой кода</span>
+                </h1>
+                <p class="hero-lead-text animate-slide-up-delayed">
+                    Я создаю кастомные веб-решения, интерактивные UI-системы и автономные воронки обработки данных, которые отправляют лиды напрямую в ваш Telegram по системному Chat ID без сторонних CRM.
+                </p>
+                <div class="hero-button-group animate-slide-up-final">
+                    <a href="#contact" class="action-btn btn-prime">Собрать сайт & Заказать</a>
+                    <a href="#portfolio" class="action-btn btn-secondary">Смотреть кейсы</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ПОЛНОЦЕННЫЙ РАЗДЕЛ: ОБО МНЕ -->
+        <section id="about" class="about-section scroll-reveal">
+            <div class="section-container layout-about-grid">
+                <div class="about-visual-panel">
+                    <div class="tech-stack-cloud">
+                        <div class="stack-badge">HTML5</div>
+                        <div class="stack-badge">CSS3 / Grid / Flex</div>
+                        <div class="stack-badge">JavaScript ES6+</div>
+                        <div class="stack-badge">DOM API</div>
+                        <div class="stack-badge">Async / Fetch</div>
+                        <div class="stack-badge">Telegram Bot API</div>
+                        <div class="stack-badge">Python Core</div>
+                        <div class="stack-badge">UI Architecture</div>
+                    </div>
+                </div>
+                <div class="about-text-panel">
+                    <span class="meta-tag">ENGINEER PROFILE</span>
+                    <h2 class="section-title">Создаю отказоустойчивый фронтенд и утилиты</h2>
+                    <p class="about-bio-p">
+                        Я специализируюсь на разработке современных веб-интерфейсов и программировании логики взаимодействия с пользователем. Мой подход базируется на отказе от тяжелых конструкторов в пользу чистого кода, семантической разметки и быстрой работы интерфейса.
+                    </p>
+                    <p class="about-bio-p">
+                        Помимо стандартных лендингов, я проектирую интерактивные веб-системы: от экологических медиа-проектов до корпоративных платформ и кастомных утилит генерации данных. Также имею практический опыт в смежных сферах — создании десктопного софта, графических скриптов и игровых механик (интеграция сложных алгоритмов на Python/Pygame/PyQt5), что помогает мне глубже понимать математику и архитектуру кода.
+                    </p>
+                    <div class="about-metrics-row">
+                        <div class="metric-node">
+                            <span class="metric-num">100%</span>
+                            <span class="metric-lab">PageSpeed Индекс</span>
+                        </div>
+                        <div class="metric-node">
+                            <span class="metric-num">0мс</span>
+                            <span class="metric-lab">Задержка API</span>
+                        </div>
+                        <div class="metric-node">
+                            <span class="metric-num">Чистый</span>
+                            <span class="metric-lab">Валидный код</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел Преимуществ -->
+        <section id="services" class="services-section scroll-reveal">
+            <div class="section-container">
+                <div class="section-meta">
+                    <span class="meta-tag">BENEFITS</span>
+                    <h2 class="section-title">Что получает ваш бизнес</h2>
+                </div>
+                <div class="services-matrix">
+                    <div class="matrix-card">
+                        <div class="matrix-icon">01 //</div>
+                        <h3 class="matrix-title">Умные Лендинги</h3>
+                        <p class="matrix-desc">Высококонверсионные посадочные страницы, спроектированные на чистом коде без тяжелых скриптов. Идеальный мобильный UI под любые экраны.</p>
+                    </div>
+                    <div class="matrix-card">
+                        <div class="matrix-icon">02 //</div>
+                        <h3 class="matrix-title">Прямое Telegram API</h3>
+                        <p class="matrix-desc">Интеграция форм напрямую с мессенджером. Заявки падают в ваш чат мгновенно. Никаких ежемесячных оплат за CRM-системы.</p>
+                    </div>
+                    <div class="matrix-card">
+                        <div class="matrix-icon">03 //</div>
+                        <h3 class="matrix-title">Интерактивные Сервисы</h3>
+                        <p class="matrix-desc">Разработка калькуляторов стоимости, конфигураторов, рандомизаторов и каталогов товаров со сложной математической обработкой данных.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел Портфолио -->
+        <section id="portfolio" class="portfolio-section scroll-reveal">
+            <div class="section-container">
+                <div class="section-meta-split">
+                    <div>
+                        <span class="meta-tag">SHOWCASE</span>
+                        <h2 class="section-title">Реализованные веб-системы</h2>
+                    </div>
+                    <div class="filter-controls">
+                        <button class="filter-btn active" data-filter="all">Все проекты</button>
+                        <button class="filter-btn" data-filter="automation">Автоматизация</button>
+                        <button class="filter-btn" data-filter="landing">Лендинги</button>
+                        <button class="filter-btn" data-filter="utility">Утилиты</button>
+                    </div>
+                </div>
+
+                <div class="portfolio-showcase-grid">
+                    <!-- Проект 1 -->
+                    <article class="portfolio-item-card" data-category="automation">
+                        <div class="card-visual visual-store">
+                            <span class="tech-tag">HTML5 / CSS3 / JavaScript / TG API</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-project-title">DIXIZE STORE WEB</h3>
+                            <p class="card-project-text">Интерактивный интернет-магазин. Реализована динамическая корзина товаров, автоподсчет стоимости и сложный скрипт упаковки заказа для отправки в Telegram.</p>
+                            <a href="https://dixize.github.io/dixize_store_web/" target="_blank" class="card-hyperlink">Тестировать интерфейс <span>→</span></a>
+                        </div>
+                    </article>
+                    <!-- Проект 2 -->
+                    <article class="portfolio-item-card" data-category="landing">
+                        <div class="card-visual visual-forest">
+                            <span class="tech-tag">Advanced UI / DOM Modification</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-project-title">FOREST CONSERVATION</h3>
+                            <p class="card-project-text">Тематический промо-сайт, посвященный защите лесов и дикой природы. Продвинутая структура блоков, кастомные интерактивные элементы и интеграция формы обратной связи.</p>
+                            <a href="https://dixize.github.io/foressttt/" target="_blank" class="card-hyperlink">Тестировать интерфейс <span>→</span></a>
+                        </div>
+                    </article>
+                    <!-- Проект 3 -->
+                    <article class="portfolio-item-card" data-category="landing">
+                        <div class="card-visual visual-office">
+                            <span class="tech-tag">Corporate UI / Clean Layout</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-project-title">PROJECT OFFICE PORTFOLIO</h3>
+                            <p class="card-project-text">Строгий, структурированный корпоративный сайт-портфолио для презентации сложных бизнес-процессов, аналитики и проектной деятельности компании.</p>
+                            <a href="https://dixize.github.io/wqeqweqw/" target="_blank" class="card-hyperlink">Тестировать интерфейс <span>→</span></a>
+                        </div>
+                    </article>
+                    <!-- Проект 4 -->
+                    <article class="portfolio-item-card" data-category="utility">
+                        <div class="card-visual visual-random">
+                            <span class="tech-tag">Pure JS / Algorithmic Logic</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-project-title">DATA RANDOMIZER SERVICE</h3>
+                            <p class="card-project-text">Веб-утилита для генерации и случайного распределения данных. Высокая скорость вычислений на стороне клиента за счет оптимизированных алгоритмов на чистом JS.</p>
+                            <a href="https://dixize.github.io/randomizer/" target="_blank" class="card-hyperlink">Тестировать интерфейс <span>→</span></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ПОЛНОЦЕННЫЙ ИНТЕРАКТИВНЫЙ РАЗДЕЛ: ЗАКАЗАТЬ САЙТ -->
+        <section id="contact" class="contact-section scroll-reveal">
+            <div class="form-container-box">
+                <div class="form-head text-center">
+                    <span class="meta-tag">LIVE CONFIGURATOR</span>
+                    <h2 class="section-title">Конфигуратор вашего проекта</h2>
+                    <p class="form-sub">Выберите нужные параметры. Стоимость пересчитается на лету, а ТЗ улетит в Telegram-бот.</p>
+                </div>
+                
+                <form id="portfolio-interactive-form" class="engineered-form">
+                    
+                    <!-- Шаг 1: Выбор архитектуры/типа сайта -->
+                    <div class="config-group">
+                        <label class="group-label">1. Тип разрабатываемой системы:</label>
+                        <div class="config-selector-grid">
+                            <div class="selector-tile active" data-type="landing" data-price="15000">
+                                <h4>Лендинг / Промо</h4>
+                                <p>Чистый код, адаптивный интерфейс, высокая скорость.</p>
+                            </div>
+                            <div class="selector-tile" data-type="store" data-price="30000">
+                                <h4>Магазин с корзиной</h4>
+                                <p>Каталог, интерактивная корзина, подсчет стоимости.</p>
+                            </div>
+                            <div class="selector-tile" data-type="service" data-price="25000">
+                                <h4>Сервис / Утилита</h4>
+                                <p>Сложные калькуляторы, алгоритмы, обработка данных.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Шаг 2: Дополнительные фичи (Чекбоксы) -->
+                    <div class="config-group">
+                        <label class="group-label">2. Дополнительные интеграции:</label>
+                        <div class="addons-flex">
+                            <label class="addon-checkbox-label">
+                                <input type="checkbox" id="addon-tg" data-addon-price="5000" checked>
+                                <span class="custom-checkbox"></span>
+                                Интеграция с Telegram Bot API (+5 000 ₽)
+                            </label>
+                            <label class="addon-checkbox-label">
+                                <input type="checkbox" id="addon-anim" data-addon-price="3000">
+                                <span class="custom-checkbox"></span>
+                                Сложные UI-анимации блоков (+3 000 ₽)
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Шаг 3: Контактные данные -->
+                    <div class="form-row-split">
+                        <div class="input-wrapper">
+                            <label for="client_name">Ваше имя *</label>
+                            <input type="text" id="client_name" required placeholder="Иван">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="client_contact">Контакт для связи (Telegram / Телефон) *</label>
+                            <input type="text" id="client_contact" required placeholder="@username или +7...">
+                        </div>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="client_task">Дополнительные требования к техническому заданию</label>
+                        <textarea id="client_task" rows="3" placeholder="Опишите ваши пожелания, цветовую гамму или прикрепите ссылки на примеры..."></textarea>
+                    </div>
+
+                    <!-- Живой расчет цены -->
+                    <div class="price-counter-panel">
+                        <span class="counter-label">Предварительный расчет:</span>
+                        <div class="counter-value"><span id="live-price-display">15000</span> ₽</div>
+                    </div>
+
+                    <button type="submit" class="action-btn btn-prime btn-wide" id="form-submit-trigger">
+                        <span class="btn-text">Утвердить ТЗ и отправить заказ</span>
+                        <div class="spinner hidden"></div>
+                    </button>
+                </form>
+
+                <div id="form-success-state" class="success-state-ui hidden-state">
+                    <div class="success-radial-icon">✓</div>
+                    <h3>Заказ успешно сформирован и отправлен!</h3>
+                    <p>Скрипт упаковал конфигурацию проекта и отправил её по API. Я изучу конфигурацию ТЗ и свяжусь с вами в ближайшее время.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="nav-container footer-wrap">
+            <p class="copy">&copy; 2026 DIXIZE.DEV. Разработка интерфейсов на чистой кодовой базе.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/" target="_blank" class="social-link">GitHub</a>
+                <a href="https://t.me/" target="_blank" class="social-link">Telegram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
